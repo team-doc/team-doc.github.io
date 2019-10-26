@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Team docs</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="folder.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="log.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <style>
+        .block {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 70%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+</head>
+<body class="text-center">
+<h1 class="m-5">Team Docs</h1>
+<div class="block row w-100">
+    <div class="row w-100">
+        <div class="col-6 text-center">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Если  вы уже  есть в системе, то для входа введите логин и пароль:</h2>
+            <label for="sing_login">Login:</label>
+            <textarea class="m-2 p-2" id="sing_login" rows="1" spellcheck="false"></textarea>
+            <br>
+            <label for="sing_password">Password:</label>
+            <textarea class="m-2 p-2" id="sing_password" rows="1" spellcheck="false"></textarea>
+            <br>
+            <button class="btn btn-outline-primary" id="singInButton" type="button" onclick="logIn()">Sing in</button>
+        </div>
+    </div>
+    <div class="row w-100 text-center">
+        <div class="col-6 text-center">
+            <h2 class="mb-4">If you are still not in the system, please log in:</h2>
+            <label for="log_login">Login:</label>
+            <textarea class="m-2 p-2" id="log_login" rows="1" spellcheck="false"></textarea>
+            <br>
+            <label for="log_password">Password:</label>
+            <textarea class="m-2 p-2" id="log_password" rows="1" spellcheck="false"></textarea>
+            <br>
+            <label for="log_password_check">Password check:</label>
+            <textarea class="m-2 p-2" id="log_password_check" rows="1" spellcheck="false"></textarea>
+            <br>
+            <button class="btn btn-outline-primary" id="logInButton" type="button" onclick="logIn()">Log in</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

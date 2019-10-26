@@ -1,0 +1,47 @@
+body{
+font:14px Arial,Verdana,sans-serif;
+ display: inline-block;}
+
+a{outline:none;}
+img{border:none;}
+
+#makeMeScrollable{
+margin-left:200px;
+width:1200px;
+margin:0 auto;
+display:block;position: absolute;
+              bottom: 0px;
+height:40px;}
+
+.part{
+display:inline-block;
+width:267px; height:200px;
+margin-left: 10px;
+background-color:blue;
+}
+
+.el {
+background-color:blue;
+
+opacity: 1;
+width: 40px;
+height: 40px;
+transition: width,height 1s ease;
+margin-top:5px;
+margin-bottom:5px;
+}
+.el:hover {
+background-color:blue;
+
+width: 40px;
+height:45px
+}
+#right-side {
+float:right;
+}
+.centr-cont {
+background-color:green;
+width:90%;
+height:100%;
+
+}
